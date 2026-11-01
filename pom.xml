@@ -7,18 +7,18 @@
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.1.13.RELEASE</version>
     </parent>
-    <groupId>com.gihub.yungyu.demo</groupId>
-    <artifactId>java-demo-parent</artifactId>
+    <groupId>com.github.yungyu.lab</groupId>
+    <artifactId>java-lab-parent</artifactId>
     <packaging>pom</packaging>
     <version>${revision}</version>
     <properties>
         <revision>1.0.0</revision>
     </properties>
     <modules>
-        <module>api-demo</module>
-        <module>misc-demo</module>
-        <module>net-demo</module>
-        <module>raft-demo</module>
+        <module>api-lab</module>
+        <module>misc-lab</module>
+        <module>net-lab</module>
+        <module>raft-lab</module>
     </modules>
     <dependencyManagement>
         <dependencies>
